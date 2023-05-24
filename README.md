@@ -11,7 +11,7 @@
     - [Install ](#install-)
     - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
-    - [👤 **Mert Kantaroglu**](#-mert-kantaroglu)
+    - [👤 **Agu Lugard**](#-Agu-Lugard)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
