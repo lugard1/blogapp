@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  post = Post.new(author_id: 1, title: 'first post', text: 'this is the first post', comments_counter: 3, likes_counter: 2)
+  post = Post.new(author_id: 1, title: 'first post', text: 'this is the first post', comments_counter: 3,
+                  likes_counter: 2)
 
   it 'checks the post author id' do
     expect(post.author_id).to eql 1
@@ -56,7 +57,8 @@ RSpec.describe Post, type: :model do
   it 'brings last five comments for the post' do
     user = User.create!(name: 'Lugard', photo: 'www.unsplash.com', bio: 'Lorem ipsum', posts_counter: 5)
 
-    post = user.posts.create!(title: 'first post', text: 'this is the first post', comments_counter: 3, likes_counter: 2)
+    post = user.posts.create!(title: 'first post', text: 'this is the first post', comments_counter: 3,
+                              likes_counter: 2)
 
     comment1 = post.comments.create!(author_id: user.id, text: 'first comment')
     comment2 = post.comments.create!(author_id: user.id, text: 'second comment')

@@ -21,7 +21,8 @@ describe Comment, type: :model do
   it 'check post comments_counter is increasing' do
     User.new(name: 'Lugard', photo: 'www.unsplash.com', bio: 'Lorem ipsum', posts_counter: 5)
 
-    post = Post.new(author_id: 1, title: 'first post', text: 'this is the first post', comments_counter: 3, likes_counter: 2)
+    post = Post.new(author_id: 1, title: 'first post', text: 'this is the first post', comments_counter: 3,
+                    likes_counter: 2)
 
     comment = Comment.new(author_id: 1, post:, text: 'texting')
 
