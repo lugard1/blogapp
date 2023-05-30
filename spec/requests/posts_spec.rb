@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Posts", type: :request do
+RSpec.describe 'Posts', type: :request do
   describe 'GET all posts for the user' do
     it 'checks whether it brings successful response' do
       get user_posts_path(:user_id)

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Users", type: :request do
+RSpec.describe 'Users', type: :request do
   describe 'GET all users' do
     it 'checks whether it brings a successful response' do
       get '/users'
