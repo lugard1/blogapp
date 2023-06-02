@@ -1,5 +1,5 @@
 <% @users.each do |user| %>
-  <div class='main-container'>
+  <main class='main-container'>
     <div class='user-container'>
       <img src="<%= user.photo %>" class='user-image'>
     </div>
@@ -7,5 +7,5 @@
       <%= link_to user.name, user_path(user) %>
     </h2>
     <p class='post-num'>Number of posts: <%= user.posts_counter %></p>
-  </div>
+  </main>
 <% end %>
