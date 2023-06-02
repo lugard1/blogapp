@@ -19,7 +19,8 @@ body {
   margin-top: 30px;
 }
 
-.main-container, .user-details{
+.main-container,
+.user-details {
   width: 80%;
   padding: 20px 0;
   display: flex;
@@ -27,9 +28,10 @@ body {
   border: 1px solid black;
 }
 
-.user-container, .user-header{
+.user-container,
+.user-header {
   display: flex;
-  padding: 20px
+  padding: 20px;
 }
 
 .user-image {
@@ -67,7 +69,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   border: 1px solid black;
-  margin: 0px 20px 10px;
+  margin: 0 20px 10px;
 }
 
 .user-info {
@@ -103,7 +105,8 @@ body {
   width: 100%;
 }
 
-.single-post, .final-post {
+.single-post,
+.final-post {
   border: 1px solid black;
   padding: 20px;
   display: flex;
@@ -117,7 +120,8 @@ body {
   width: 80vw;
 }
 
-.all-posts-btn, .pagination-btn{
+.all-posts-btn,
+.pagination-btn {
   display: flex;
   justify-content: center;
   align-items: center;
